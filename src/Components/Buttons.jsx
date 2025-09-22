@@ -9,7 +9,7 @@ const array =[{
 export default function Buttons(){
     const {handelnumber,handelOperator,hadnelEqual}=useContext(CalContext)
     return(
-        <ol>
+        <div>
 
            
            
@@ -24,6 +24,6 @@ export default function Buttons(){
                     </div>
                 
             </div>
-        </ol>
+        </div>
     )
 }
