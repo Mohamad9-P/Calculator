@@ -231,14 +231,23 @@ dialog::backdrop {
     --button-size:70px;
   }
   main .box{
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  }
+  main .box{
     margin-top: 0px;
     height: 100vh;
+    border: solid #777777;
   }
+  
   main .box h1{
-    font-size: Xx-large;
+    font-size: 3rem;
+
   }
   .Output{
-    height: 5rem;
+    height: 10rem;
   }
   .allbutton{
     padding-top: 40px;
@@ -246,9 +255,7 @@ dialog::backdrop {
   .allbutton button{
     font-size: 1.5rem;
   }
-  .hisbutton{
-    padding-top: 10px;
-  }
+
   .hisbutton img{
     width: 25px;
     height: 25px;
